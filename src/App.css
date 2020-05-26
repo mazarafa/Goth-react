@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  /* todos os links sem sublinhado */
+}
+.App {
+  text-align: center;
+  padding: 35px 10px 20px 20px;
+}
+
+.front-nav {
+  background: #f4f7f8;
+  text-transform: uppercase;
+}
+
+.nav-ul {
+  font-size: 12px;
+}
+.text{
+  text-align: justify;
+  padding: 15px 28px 200px 28px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-left: 75px;
+}
+.git{
+  width: 130px;
+  height: 145px;
+}
+.right-text{
+  margin-left: 139px;
+  margin-top: -122px;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
